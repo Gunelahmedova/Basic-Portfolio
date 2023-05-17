@@ -1,0 +1,23 @@
+body {
+  text-align: center;
+}
+
+h1 {
+  background-color: #4aaaa5;
+  color: #fff;
+  box-lines: 1;
+  background-image: initial;
+  box-sizing: border-box;
+  width: 250px;
+  height: 90px;
+  margin: 5px;
+  padding:20px 10px;
+  float: left;
+}
+li{list-style-type: none;
+display: inline;
+}
+a{text-decoration: none; }
+ul{width: 30%;
+float: right;}
+main{clear: both;}
