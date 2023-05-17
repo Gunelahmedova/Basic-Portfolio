@@ -1,23 +1,118 @@
 body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 34px;
+  color: #777;
   text-align: center;
 }
+#title {
+  width: 100%;
+  height: 90px;
+  margin-bottom: 30px;
+  background-color: #fff;
+  padding-bottom: 10px;
+  clear: both;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  clear: both;
+  border-bottom: 2px solid #ccc;
+}
 
-h1 {
+#logo {
   background-color: #4aaaa5;
   color: #fff;
-  box-lines: 1;
+  /* box-lines: 1; */
   background-image: initial;
   box-sizing: border-box;
   width: 250px;
   height: 90px;
   margin: 5px;
-  padding:20px 10px;
   float: left;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 90px;
+  text-align: center;
 }
-li{list-style-type: none;
-display: inline;
+ul {
+  width: 30%;
+  float: right;
+  margin-top: 25px;
 }
-a{text-decoration: none; }
-ul{width: 30%;
-float: right;}
-main{clear: both;}
+li {
+  display: inline;
+  margin-left: 15px;
+  padding-left: 15px;
+  border-left: 1px solid #efefef;
+}
+a {
+  color: #999;
+  text-decoration: none;
+}
+
+.main-section {
+  width: 100%;
+  max-width: 650px;
+  float: left;
+  margin-right: 18px;
+}
+h1 h2 h3 p {
+  margin-bottom: 20px;
+}
+h1 {
+  text-align: left;
+  font-size: 30px;
+  font-weight: bold;
+  color: #4aaaa5;
+  line-height: 49px;
+  padding-bottom: 20px;
+  margin-top: 10px;
+  border-bottom: 3px solid #ddd;
+}
+img {
+  width: 200px;
+  float: left;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 25px;
+}
+
+p {
+  text-align: left;
+}
+
+.main-contact {
+  float: left;
+  width: 100%;
+  max-width: 250px;
+  padding: 10px 20px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  background-color: #efefef;
+  border: 1px solid #ddd;
+}
+h2 {
+  color: #4aaaa5;
+  font-size: 25px;
+  font-weight: bold;
+  border-bottom: 1px solid #ddd;
+  padding-right: 5px;
+}
+aside img {
+  width: 50px;
+  height: 50px;
+  margin-top: 8px;
+  /* margin-left: 0px;} */
+}
+footer {
+  clear: both;
+  background: #666;
+  font-size: 12px;
+  color: #ccc;
+  padding: 30px 0px;
+  border-top: 8px solid #4aaaa5;
+}
