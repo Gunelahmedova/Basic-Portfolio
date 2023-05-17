@@ -4,21 +4,25 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Basic_Portfolio</title>
+    <link rel="stylesheet" href="../assets/css/reset.css" />
+    <link rel="stylesheet" href="../assets/css/style.css" />
   </head>
   <body>
-    <header>
-      <h1>Ada Lovelace</h1>
-      <nav>
-        <ul>
-          <li><a href="index.html">About</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
+    <header id="title">
+      <div class="container">
+        <a id="logo" href="index.html">Ada Lovelace</a>
+        <nav>
+          <ul>
+            <li><a href="../index.html">About</a></li>
+            <li><a href="./portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
-    <main>
-      <section>
+    <main id="main-container" class="container">
+      <section class="main-section">
         <h2>Contact</h2>
         <hr />
         <form action="contact">
@@ -37,23 +41,23 @@
           <button>Submit</button>
         </form>
       </section>
-      <aside>
-        <h3>Connect with Me</h3>
-        <hr />
-        <table>
+      <aside class="main-contact">
+        <h2>Connect with Me</h2>
+        <img src="../assets/resource/38401.png" alt="" /><img
+          src="../assets/resource/174857.png"
+          alt=""
+        /><img src="./assets/resource/stackoverflow-128.png" alt="" />
+        <!-- <table>
           <tr>
-            <td><img src="./assets/resource/38401.png" alt="" /></td>
-            <td><img src="./assets/resource/174857.png" alt="" /></td>
+            <td></td>
+            <td></td>
             <td>
-              <img
-                src="./assets/resource/81b2ddf9-254a-404e-bcb4-d952a2a0f195.jpg"
-                alt=""
-              />
+              
             </td>
           </tr>
-        </table>
+        </table> -->
       </aside>
     </main>
-    <footer>Copyright © 2017 Your Name</footer>
+    <footer class="container">Copyright © 2017 Your Name</footer>
   </body>
 </html>
